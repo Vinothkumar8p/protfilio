@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="testing.css">
+</head>
+<body>
+   <header>
+       <div class="logo">VK</div> 
+        <vk>
+            <ul class="link">
+                <li><a  class="active" href="file:///C:/Users/Hp/testing.html">Home</a></li>
+                <li><a href="file:///C:/Users/Hp/Pictures/Screenshots/about%20me.png">About</a></li>
+                <li><a  href="file:///C:/Users/Hp/Desktop/VINOTH%20KUMAR/Project.tools/Figma/project%201.png">Project</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </vk>
+        
+    </header>
+    <div class="banner">
+        <h1>Hi! I'am R.VinothKumar</h1>
+        <h3>UI/UX Designer</h3>
+            <div class="photo"></div>
+        <button id="resumeBtn">Resume</button>
+    </div>
+    <script>
+      document.getElementById("resumeBtn").addEventListener("click",function resume(){
+      var link=document.createElement("a");
+        link.href="file:///C:/Users/Hp/Desktop/VINOTH%20KUMAR/Project.tools/Copy%20of%20Black%20and%20White%20Professional%20Simple%20Resume_20250824_211034_0000.png.png";
+        link.download="MyProject.png";
+        link.click();  
+      });
+    </script>
+</body>
+</html>
